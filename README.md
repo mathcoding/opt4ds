@@ -2,7 +2,7 @@
 
 This repository contain the Notebook used during an #orms course at the Math Dept of the University of Pavia.
 
-Every notebook can be open directly on the web using Google Colab, by clicking on the corresponding icon.
+Every notebook can be opened directly on the web using Google Colab, by clicking on the corresponding icon.
 
 List of notebook:
 
