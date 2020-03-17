@@ -7,4 +7,6 @@ Every notebook can be opened directly on the web using Google Colab, by clicking
 List of notebooks:
 
 1. Python in a Nutshell [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/Python_in_a_Nutshell.ipynb)
+2. Solving an LP with Two Variables [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/LPwithTwoVariables.ipynb)
+3. The Knapsack Problem [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/KnapsackProblem.ipynb)
 
