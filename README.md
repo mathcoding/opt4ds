@@ -17,6 +17,7 @@ Homework solutions:
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2020/03/24]**|*Solution Homework 2: Magic Squares*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/MagicSquare.ipynb)|
 |**[2020/03/24]**|*Solution Homework 2: Sudoku*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/Sudoku.ipynb)|
 |**[2020/03/20]**|*Solution Homework 1*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/Homework_1.ipynb)|
 
