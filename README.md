@@ -26,6 +26,7 @@ Misc Models:
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2020/03/31]**|*Data Fitting for COVID19*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_2.ipynb)|
 |**[2020/03/23]**|*n-Queens Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/N-Queens.ipynb)|
 
 
