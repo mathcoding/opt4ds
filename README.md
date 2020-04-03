@@ -19,6 +19,7 @@ Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2020/03/31]**|*Exercise: Data Fitting for COVID19*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_2.ipynb)|
 |**[2020/03/24]**|*Solution Homework 2: Magic Squares*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/MagicSquare.ipynb)|
 |**[2020/03/24]**|*Solution Homework 2: Sudoku*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Sudoku.ipynb)|
 |**[2020/03/20]**|*Solution Homework 1*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_1.ipynb)|
@@ -28,14 +29,13 @@ Misc Models.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
-|**[2020/03/31]**|*Data Fitting for COVID19*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_2.ipynb)|
 |**[2020/03/23]**|*n-Queens Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/N-Queens.ipynb)|
 
 
 ## Python scripts
 | Data | Name |
 |:-|:-|
-|**[2020/04/03]** | [Data Fitting for COVID19](https://github.com/mathcoding/opt4ds/blob/master/python/basic_sir_fitting.py) |
+|**[2020/04/03]** | [Solution: Data Fitting for COVID19](https://github.com/mathcoding/opt4ds/blob/master/python/basic_sir_fitting.py) |
 |**[2020/03/31]** | [Magic Square](https://github.com/mathcoding/opt4ds/blob/master/python/magic_square.py) |
 |**[2020/03/31]** | [Sudoku](https://github.com/mathcoding/opt4ds/blob/master/python/sudoku.py) |
 
