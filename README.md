@@ -4,7 +4,9 @@ This repository contain the Notebook used during an #orms course at the Math Dep
 
 Every notebook can be opened directly on the web using Google Colab, by clicking on the corresponding icon.
 
-List of notebooks:
+## Python Notebooks
+
+Teaching. 
 
 | Data | Notebook | Link |
 |:-|:-|:-|
@@ -13,7 +15,7 @@ List of notebooks:
 |**[2020/03/17]**|*The Knapsack Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/KnapsackProblem.ipynb)|
 
 
-Homework solutions:
+Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
@@ -22,7 +24,7 @@ Homework solutions:
 |**[2020/03/20]**|*Solution Homework 1*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_1.ipynb)|
 
 
-Misc Models:
+Misc Models.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
@@ -30,7 +32,7 @@ Misc Models:
 |**[2020/03/23]**|*n-Queens Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/N-Queens.ipynb)|
 
 
-List of python scripts:
+## Python scripts
 | Data | Name |
 |:-|:-|
 |**[2020/04/03]** | [Data Fitting for COVID19](https://github.com/mathcoding/opt4ds/blob/master/python/basic_sir_fitting.py) |
