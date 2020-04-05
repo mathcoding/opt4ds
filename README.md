@@ -35,6 +35,8 @@ Misc Models.
 ## Python scripts
 | Data | Name |
 |:-|:-|
+|**[2020/04/03]** | [Plot Shortest Path Tree with NetworkX](https://github.com/mathcoding/opt4ds/blob/master/python/plot_shortest_path_tree.py) |
+|**[2020/04/03]** | [Naive Reverse Dijkstra](https://github.com/mathcoding/opt4ds/blob/master/python/naive_reverse_dijkstra.py) |
 |**[2020/04/03]** | [Solution: Data Fitting for COVID19](https://github.com/mathcoding/opt4ds/blob/master/python/basic_sir_fitting.py) |
 |**[2020/03/31]** | [Magic Square](https://github.com/mathcoding/opt4ds/blob/master/python/magic_square.py) |
 |**[2020/03/31]** | [Sudoku](https://github.com/mathcoding/opt4ds/blob/master/python/sudoku.py) |
