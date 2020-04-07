@@ -19,6 +19,7 @@ Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2020/04/07]**|*Exercise: Optimal Transport, an Appetizer*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_3.ipynb)|
 |**[2020/03/31]**|*Exercise: Data Fitting for COVID19*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Homework_2.ipynb)|
 |**[2020/03/24]**|*Solution Homework 2: Magic Squares*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/MagicSquare.ipynb)|
 |**[2020/03/24]**|*Solution Homework 2: Sudoku*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Sudoku.ipynb)|
