@@ -36,6 +36,9 @@ Misc Models.
 ## Python scripts
 | Data | Name |
 |:-|:-|
+|**[2020/04/21]** | [Displacement Interpolation with VGA fonts](https://github.com/mathcoding/opt4ds/blob/master/python/fonts.py) |
+|**[2020/04/21]** | [Optimal Transport 2D](https://github.com/mathcoding/opt4ds/blob/master/python/ot_2D.py) |
+|**[2020/04/21]** | [Optimal Transport 1D](https://github.com/mathcoding/opt4ds/blob/master/python/ot_1D.py) |
 |**[2020/04/03]** | [Plot Shortest Path Tree with NetworkX](https://github.com/mathcoding/opt4ds/blob/master/python/plot_shortest_path_tree.py) |
 |**[2020/04/03]** | [Naive Reverse Dijkstra](https://github.com/mathcoding/opt4ds/blob/master/python/naive_reverse_dijkstra.py) |
 |**[2020/04/03]** | [Solution: Data Fitting for COVID19](https://github.com/mathcoding/opt4ds/blob/master/python/basic_sir_fitting.py) |
