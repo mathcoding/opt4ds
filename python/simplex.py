@@ -38,7 +38,7 @@ class LinearProblem:
     
     
     def get_obj(self):
-        return self.D[0,0]
+        return -self.D[0,0]
 
 
     def check_optimality(self):
