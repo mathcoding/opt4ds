@@ -13,6 +13,7 @@ Teaching.
 |**[2020/03/17]**|*Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
 |**[2020/03/17]**|*Solving an LP with Two Variables*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LPwithTwoVariables.ipynb)|
 |**[2020/03/17]**|*The Knapsack Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/KnapsackProblem.ipynb)|
+|**[2020/05/17]**|*The Traveling Salesman Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TSP.ipynb)|
 
 
 Homework solutions.
@@ -36,6 +37,7 @@ Misc Models.
 ## Python scripts
 | Data | Name |
 |:-|:-|
+|**[2020/05/17]** | [Traveling Salesman Problem](https://github.com/mathcoding/opt4ds/blob/master/python/tsp_exercise.py) |
 |**[2020/04/21]** | [Displacement Interpolation with VGA fonts](https://github.com/mathcoding/opt4ds/blob/master/python/fonts.py) |
 |**[2020/04/21]** | [Optimal Transport 2D](https://github.com/mathcoding/opt4ds/blob/master/python/ot_2D.py) |
 |**[2020/04/21]** | [Optimal Transport 1D](https://github.com/mathcoding/opt4ds/blob/master/python/ot_1D.py) |
