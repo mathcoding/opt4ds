@@ -1,4 +1,4 @@
-# Optimization Models and Algorithms for Data Science 2021
+# Optimization Models and Algorithms - 2021
 
 This repository contain the Notebook used during an #orms course at the Math Dept of the University of Pavia.
 
