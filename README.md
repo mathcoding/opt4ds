@@ -11,7 +11,7 @@ Teaching.
 | Data | Notebook | Link |
 |:-|:-|:-|
 |**[2020/03/11]**|*Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
-|**[2020/03/12**|*Lego Problem](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Lego Problems.ipynb)|
+|**[2020/03/12**|*Lego Problem](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mathcoding/opt4ds/blob/master/notebooks/Lego%20Problems.ipynb)|
 
 
 Homework solutions.
