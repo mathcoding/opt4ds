@@ -20,6 +20,7 @@ Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2020/03/11]**|*Steel Blending Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SteelBlending.ipynb)|
 
 
 Misc Models.
