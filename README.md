@@ -34,7 +34,7 @@ Misc Models.
 | Data | Name |
 |:-|:-|
 |**[2021/03/24]** | [Steel Bleending LP](https://github.com/mathcoding/opt4ds/blob/master/python/miscelazione.py) |
-|**[2021/03/24]** | [Steel Bleending IP](https://github.com/mathcoding/opt4ds/blob/master/python/miscelazione_IP.py) |
+|**[2021/03/24]** | [Steel Bleending IP](https://github.com/mathcoding/opt4ds/blob/master/python/miscelazione_ip.py) |
 
 
 ### License
