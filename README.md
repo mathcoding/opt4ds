@@ -10,6 +10,7 @@ Teaching.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2021/03/26]**|*Linear Classifier*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
 |**[2021/03/19]**|*n-Queens*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/N-Queens.ipynb)|
 |**[2021/03/19]**|*Knapsack Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/KnapsackProblem.ipynb)|
 |**[2021/03/11]**|*Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
