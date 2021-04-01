@@ -34,6 +34,8 @@ Misc Models.
 ## Python scripts
 | Data | Name |
 |:-|:-|
+|**[2021/03/31]** | [Linear Classifiers by LP and ILP](https://github.com/mathcoding/opt4ds/blob/master/python/classificationBanknote.py) |
+|**[2021/03/31]** | [Linear Classifiers by LP and ILP](https://github.com/mathcoding/opt4ds/blob/master/python/classificationGaussian2D.py) |
 |**[2021/03/24]** | [Steel Bleending LP](https://github.com/mathcoding/opt4ds/blob/master/python/miscelazione.py) |
 |**[2021/03/24]** | [Steel Bleending IP](https://github.com/mathcoding/opt4ds/blob/master/python/miscelazione_ip.py) |
 
