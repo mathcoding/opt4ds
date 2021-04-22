@@ -10,6 +10,7 @@ Teaching.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2021/04/22]**|*Python and Pyomo Misc Exercise*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_e_Pyomo.ipynb)|
 |**[2021/04/09]**|*Capacitated Vehicle Routing Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/CVRP.ipynb)|
 |**[2021/03/26]**|*Linear Classifier*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
 |**[2021/03/19]**|*n-Queens*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/N-Queens.ipynb)|
