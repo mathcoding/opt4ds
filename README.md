@@ -22,7 +22,7 @@ Teaching.
 Homework solutions.
 
 | Data | Notebook | Link |
-|:-|:-|:-|
+|:-|:-|
 |**[2021/03/24]**|*Magic Square*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/MagicSquare.ipynb)|
 |**[2021/03/11]**|*Steel Blending Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SteelBlending.ipynb)|
 
