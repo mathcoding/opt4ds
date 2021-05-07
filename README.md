@@ -22,7 +22,7 @@ Teaching.
 Homework solutions.
 
 | Data | Notebook | Link |
-|:-|:-|
+|:-|:-|:-|
 |**[2021/03/24]**|*Magic Square*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/MagicSquare.ipynb)|
 |**[2021/03/11]**|*Steel Blending Problem*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SteelBlending.ipynb)|
 
@@ -30,7 +30,7 @@ Homework solutions.
 Script solution.
 
 | Data | Link |
-|:-|:-|:-|
+|:-|:-|
 |**[2021/05/07]** | [Traveling Student Problem](https://github.com/mathcoding/opt4ds/blob/master/python/tsp_exercise.py) |
 |**[2021/04/30]** | [CVRP](https://github.com/mathcoding/opt4ds/blob/master/python/cvrp_half_sol.py) |
 
