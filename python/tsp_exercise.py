@@ -2,12 +2,16 @@
 """
 @author: Gualandi
 """
+
 import numpy as np
+
+import networkx as nx
+
 from math import sqrt
+from time import sleep
 
-
-from pyomo.environ import ConcreteModel, Var, Objective, Constraint, SolverFactory
-from pyomo.environ import maximize, Binary, RangeSet, PositiveReals, ConstraintList
+from pyomo.environ import ConcreteModel, Var, Objective, Constraint, SolverFactory, Set
+from pyomo.environ import maximize, Binary, RangeSet, PositiveReals, ConstraintList, NonNegativeReals
 
 # Residenza Collegiali a Pavia
 Rs = [(45.1882789,9.1600456, 'Del Maino'),(45.2070857,9.1382623, 'Green Campus'),
@@ -39,49 +43,27 @@ BAVIERA = [(1150.0,  1760.0), (630.0,  1660.0),  (40.0,  2090.0),    (750.0,  11
   (750.0,  2030.0)]   
 
     
-# Mixed Integre Programming Formulation
-def TSP(C):
-    # Number of places
-    n, n = C.shape
-    
-    # TODO: Implement the model of your choice
-    m = ConcreteModel()
-    
-    # 1. Data and ranges
-    # .....
-    
-    # 2. Variables
-    # .....
-    
-    # 3. Objective function
-    # .....
-    
-    # 4. Constraints
-    # .....
-    
-    # 5. Solution
-    # .....
-    
-    # Return the solution in the correct format
-    return [(i, i+1) for i in range(n-1)]
-    
 
 
-def PlotTour(Ps, Ls):
+def PlotTour(Ps, Ls, values):
     # Report solution value
     import pylab as pl
     from matplotlib import collections  as mc
 
     lines = [[Ps[i], Ps[j]] for i,j in Ls]
 
-    lc = mc.LineCollection(lines, linewidths=2)
+    lc = mc.LineCollection(lines, linewidths=[1.5 if x > 0.501 else 1 for x in values],
+                           colors=['blue' if x > 0.501 else 'orange' for x in values])
+    
     fig, ax = pl.subplots()
     ax.add_collection(lc)
-    ax.scatter([i for i,j in Ps[1:]], [j for i,j in Ps[1:]], 
+    ax.scatter([i for i,j in Ps], [j for i,j in Ps], 
                 s=20, alpha=0.8, color='red')
     
     ax.autoscale()
     ax.margins(0.1)
+    
+    pl.show()
 
 
 def CostMatrix(Ls):
@@ -100,12 +82,195 @@ def RandomTSP(n):
     return [(x,y) for x,y in zip(random.random(n), random.random(n))]
 
 
+def BuildDigraph(C):
+    G = nx.DiGraph()
+    
+    n, n = C.shape
+    for i in range(1, n+1):
+        for j in range(1, n+1):
+            if i!=j:
+                G.add_edge(i, j, weight=C[i-1,j-1])
+
+    return G
+
+
+def BuildGraph(C):
+    G = nx.Graph()
+    
+    n, n = C.shape
+    for i in range(1, n+1):
+        for j in range(1, n+1):
+            if i < j:
+                G.add_edge(i, j, weight=C[i-1,j-1])
+
+    return G
+
+  
+def TSP(G):
+    n = G.number_of_nodes()
+    
+    m = ConcreteModel()
+    
+    m.N = RangeSet(n)
+    
+    m.A = Set(initialize=((i,j) for i,j in G.edges()), dimen=2)
+    
+    m.x = Var(m.A, domain=NonNegativeReals, bounds=lambda m: (0,1))
+    
+    m.obj = Objective(expr = sum(G[i][j]['weight'] * m.x[i,j]  for i,j in G.edges() ))
+    
+    m.outdegree = ConstraintList()
+    for i in m.N:
+        m.outdegree.add(sum( m.x[v,w]  for v,w in G.out_edges(i) ) == 1 )
+
+    m.indegree = ConstraintList()
+    for i in m.N:
+        m.indegree.add(sum( m.x[v,w]  for v,w in G.in_edges(i) ) == 1 )
+    
+    m.noarcs = ConstraintList()
+    for i,j in m.A:
+        if i < j:
+            m.noarcs.add( m.x[i,j] + m.x[j,i] <= 1)
+    
+    m.subtour = ConstraintList()
+    
+    solver = SolverFactory('gurobi')
+
+
+    it = 0
+    Cold = []
+    while it <= 10: 
+        it += 1
+        sol = solver.solve(m, tee=False, load_solutions=False)
+        
+        sol_json = sol.json_repn()
+        if sol_json['Solver'][0]['Status'] != 'ok':
+            return None, []
+        
+        m.solutions.load_from(sol)
+        
+        print(it, 'LP:', m.obj())
+                
+        selected = []
+        values = []
+        for i,j in m.A:
+            if i < j:
+                if m.x[i,j]() > 0.0001 or m.x[j,i]() > 0.0001:
+                    selected.append( (i-1, j-1) )
+                    values.append( m.x[i,j]() + m.x[j,i]() )
+        
+        PlotTour(Ls, selected, values)
+        
+        # sleep(1)
+    
+        # Costruiamo un grafo supporto
+        H = nx.Graph()
+        for i,j in m.A:
+            if i < j:
+                if m.x[i,j]() > 0.001 or m.x[j,i]() > 0.001:
+                    H.add_edge(i,j)
+                    
+        Cs = nx.cycle_basis(H)
+        
+        if Cs == Cold:
+            break
+        
+        Cold = Cs
+        for cycle in Cs:
+            Es = []
+            for i in cycle:
+                for j in H.nodes():
+                    if j not in cycle:
+                        Es.append( (i,j) )
+            if len(Es) > 0:
+                m.subtour.add( sum(m.x[i,j] for i,j in Es) >= 1 )
+        
+    
+    return m.obj(), selected
+    
+
+
+def TSPSYM(G):
+    n = G.number_of_nodes()
+    
+    m = ConcreteModel()
+    
+    m.N = RangeSet(n)
+    
+    m.A = Set(initialize=((i,j) for i,j in G.edges()), dimen=2)
+    
+    m.x = Var(m.A, domain=NonNegativeReals, bounds=lambda m: (0,1))
+    
+    m.obj = Objective(expr = sum(G[i][j]['weight'] * m.x[i,j]  for i,j in G.edges() ))
+    
+    m.degree = ConstraintList()
+    for i in m.N:
+        Es = []
+        for v, w in G.edges(i):
+            if v > w:
+                v, w = w, v
+            Es.append( (v,w) )
+        m.degree.add(sum( m.x[v,w]  for v,w in Es ) == 2 )
+
+
+    m.subtour = ConstraintList()
+    
+    solver = SolverFactory('gurobi')
+
+
+    it = 0
+    Cold = []
+    while it <= 100: 
+        it += 1
+        sol = solver.solve(m, tee=False, load_solutions=False)
+        
+        sol_json = sol.json_repn()
+        if sol_json['Solver'][0]['Status'] != 'ok':
+            return None, []
+        
+        m.solutions.load_from(sol)
+        
+        print(it, 'LP:', m.obj())
+                
+        selected = []
+        values = []
+        for i,j in m.A:
+            if i < j:
+                if m.x[i,j]() > 0.0001:
+                    selected.append( (i-1, j-1) )
+                    values.append( m.x[i,j]() )
+        
+        PlotTour(Ls, selected, values)
+        
+        
+        # Costruiamo un grafo supporto
+        H = nx.Graph()
+        for i,j in m.A:
+            H.add_edge(i, j, weight=m.x[i,j]())
+                    
+        cut_value, S = nx.stoer_wagner(H) # Taglio di peso minimo
+        
+        if cut_value >= 2:
+            break
+        
+        Es = []
+        for i in S[0]:
+            for j in S[1]:
+                if i < j:
+                    Es.append( (i,j) )
+                else:
+                    Es.append( (j,i) )
+                    
+        m.subtour.add( sum( m.x[i,j] for i, j in Es) >= 2) 
+    
+    return m.obj(), selected
+
 # -----------------------------------------------
 #   MAIN function
 # -----------------------------------------------
 if __name__ == "__main__":
 
-    Test = 0
+    Test = 2
     
     # Compute Cost Matrix
     if Test == 0:
@@ -120,8 +285,8 @@ if __name__ == "__main__":
         
     # Compute cost matrix
     C = CostMatrix(Ls)
-        
-    # Solve problem
-    tour = TSP(C)
-    PlotTour(Ls, tour)
+    # G = BuildDigraph(C)
+    # z_lp, tour = TSP(G)
     
+    G = BuildGraph(C)
+    z_lp, tour = TSPSYM(G)
