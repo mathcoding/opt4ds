@@ -62,7 +62,7 @@ def PlotTour(Ps, Ls, values):
     
     ax.autoscale()
     ax.margins(0.1)
-    
+    ax.axis('equal')
     pl.show()
 
 
