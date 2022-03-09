@@ -16,7 +16,7 @@ Teaching.
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
-|**[2022/03/09]**|*Steel Production Example*|[Python script](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel_production.py)|
+|**[2022/03/09]**|*Steel Production Example*|[steel_production.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel_production.py)|
 
 
 ## Homeworks
