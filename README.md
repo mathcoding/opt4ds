@@ -30,7 +30,6 @@ Script solution.
 
 | Data | Script | Link |
 |:-|:-| :-|
-|**[2022/03/05]**|*Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
 
 
 
