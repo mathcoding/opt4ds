@@ -19,8 +19,8 @@ Teaching.
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
-|**[2022/03/16]**|*Steel recycling problem with fixed costs*|[steel_production.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
-|**[2022/03/16]**|*Steel recycling problem*|[steel_production.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
+|**[2022/03/16]**|*Steel recycling problem with fixed costs*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
+|**[2022/03/16]**|*Steel recycling problem*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
 |**[2022/03/09]**|*Steel Production Example*|[steel_production.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel_production.py)|
 
 
