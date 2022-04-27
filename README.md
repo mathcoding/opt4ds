@@ -29,6 +29,7 @@ Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2022/03/18]**|*Capacitated Vehicle Routing problem*|[cvrp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/cvrp.py)|
 |**[2022/03/18]**|*Magic squares of dimension N*|[magic_square.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/magic_square.py)|
 |**[2022/03/16]**|*Steel recycling problem with fixed costs*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
 |**[2022/03/16]**|*Steel recycling problem*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
