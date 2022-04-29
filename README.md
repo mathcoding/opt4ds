@@ -10,6 +10,7 @@ Teaching.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2022/04/29]**|*Traveling Salesman Problem (TSP)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TSP.ipynb)|
 |**[2022/04/08]**|*Capacitated Vehicle Routing Problem (CVRP)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/CVRP.ipynb)|
 |**[2022/04/01]**|*Color Transfer by Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
 |**[2022/03/16]**|*Binary Linear Classification by Integer Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
