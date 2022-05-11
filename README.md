@@ -29,8 +29,6 @@ Teaching.
 ## Homeworks
 Homework solutions.
 
-classificationBanknote
-
 | Data | Notebook | Link |
 |:-|:-|:-|
 |**[2022/05/06]**|*TSP: complete solution*|[tsp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/tsp.py)|
