@@ -22,16 +22,25 @@ Teaching.
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
+|**[2022/03/09]**|*Sudoku*|[sudoku.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/sudoku.py)|
 |**[2022/03/09]**|*Steel Production Example*|[steel_production.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel_production.py)|
 
 
 ## Homeworks
 Homework solutions.
 
+classificationBanknote
+
 | Data | Notebook | Link |
 |:-|:-|:-|
-|**[2022/05/06]**|*TSP with MTZ (solution in class)*|[tsp_aula.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/tsp_aula.py)|
-|**[2022/03/18]**|*Capacitated Vehicle Routing problem*|[cvrp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/cvrp.py)|
+|**[2022/05/06]**|*TSP: complete solution*|[tsp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/tsp.py)|
+|**[2022/05/11]**|*TSP: primal heuristics*|[tsp_heuristics.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/tsp_heuristics.py)|
+|**[2022/05/11]**|*TSP with MTZ (solution in class)*|[tsp_aula.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/tsp_aula.py)|
+|**[2022/04/18]**|*Capacitated Vehicle Routing problem*|[cvrp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/cvrp.py)|
+|**[2022/04/04]**|*Color Transfer: Pyomo and Gurobi syntax*|[color_transfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/color_transfer.py)|
+|**[2022/03/20]**|*Linear Classifier: Breast Cancer*|[classificationBreastCancer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/classificationBreastCancer.py)|
+|**[2022/03/20]**|*Linear Classifier: Banknotes*|[classificationBanknote.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/classificationBanknote.py)|
+|**[2022/03/20]**|*Linear Classifier: Gaussian 2D*|[classificationGaussian2D.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/classificationGaussian2D.py)|
 |**[2022/03/18]**|*Magic squares of dimension N*|[magic_square.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/magic_square.py)|
 |**[2022/03/16]**|*Steel recycling problem with fixed costs*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
 |**[2022/03/16]**|*Steel recycling problem*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
