@@ -1,4 +1,4 @@
-# Operations Research, 2K23
+# Operations Research 2K23
 
 This repository contains the Notebook used during the Operations Research (#orms) course at the [Department of Mathematics](https://matematica.unipv.it/) at the University of Pavia.
 
