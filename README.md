@@ -10,6 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2023/03/17]**|*4. Binary Classification with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
 |**[2023/03/08]**|*3. Python and Pyomo*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Pyomo.ipynb)|
 |**[2023/03/08]**|*2. Steel Planning*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
 |**[2023/03/03]**|*1. Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
@@ -17,6 +18,9 @@ This repository is maintained by the [Computational Optimization Research Group]
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
+|**[2023/03/17]**|*Integer Steel Blending*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
+|**[2023/03/17]**|*Linear Steel Blending*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
+|**[2023/03/15]**|*Magic squares of dimension N*|[magic_square.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/magic_square.py)|
 
 
 ## Homeworks
