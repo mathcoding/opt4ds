@@ -34,7 +34,7 @@ The data of the problem are given below.
 
 # Data of the problem (in theory, read data from .csv or excel file)
 
-# Blocks you can byu
+# Blocks you can buy
 Blocks = ['Block1', 'Block2', 'Block3', 'Block4', 'Block5', 'Block6']
 
 Weights = [30, 90, 50, 70, 60, 50]  # In quintal
@@ -45,8 +45,8 @@ Cs = [
     [93, 76, 74, 65, 72, 68],  # Ferro
     [5, 13, 11, 16, 6, 23],  # Cromo
     [0, 11, 12, 14, 20, 8],  # Nichel
-    [2, 0, 3, 5, 2, 1]
-]  # Impurità
+    [2, 0, 3, 5, 2, 1]  # Impurità
+]  
 
 # Create concrete model
 m = ConcreteModel()
@@ -59,7 +59,6 @@ m.I = RangeSet(0, len(Blocks) - 1)
 def fb(m, i):
     return 0, Weights[i]
 
-
 m.x = Var(m.I, domain=NonNegativeReals, bounds=fb)
 
 # Objective Function
@@ -68,7 +67,7 @@ m.obj = Objective(expr=sum(Costs[i] * m.x[i] for i in m.I))
 # Production Constraints
 m.c1 = Constraint(expr=sum(Cs[0][i] / 100 * m.x[i] for i in m.I) >= 65)
 
-m.c2 = Constraint(expr=sum(Cs[1][i] / 100 * m.x[i] for i in m.I) == 18)
+        m.c2 = Constraint(expr=sum(Cs[1][i] / 100 * m.x[i] for i in m.I) == 18)
 
 m.c3 = Constraint(expr=sum(Cs[2][i] / 100 * m.x[i] for i in m.I) == 10)
 

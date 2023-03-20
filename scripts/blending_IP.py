@@ -42,7 +42,6 @@ m.I = RangeSet(0, len(Blocks) - 1)
 def fb(m, i):
     return 0, Weights[i]
 
-
 m.x = Var(m.I, domain=NonNegativeReals, bounds=fb)
 
 m.y = Var(m.I, domain=Binary)
@@ -66,7 +65,6 @@ m.c5 = Constraint(expr=sum(m.x[i] for i in m.I) == 100)
 # Bound implication
 def ImplyBound(m, i):
     return m.x[i] <= Weights[i] * m.y[i]
-
 
 m.imply = Constraint(m.I, rule=ImplyBound)
 
