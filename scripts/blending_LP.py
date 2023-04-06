@@ -67,7 +67,7 @@ m.obj = Objective(expr=sum(Costs[i] * m.x[i] for i in m.I))
 # Production Constraints
 m.c1 = Constraint(expr=sum(Cs[0][i] / 100 * m.x[i] for i in m.I) >= 65)
 
-        m.c2 = Constraint(expr=sum(Cs[1][i] / 100 * m.x[i] for i in m.I) == 18)
+m.c2 = Constraint(expr=sum(Cs[1][i] / 100 * m.x[i] for i in m.I) == 18)
 
 m.c3 = Constraint(expr=sum(Cs[2][i] / 100 * m.x[i] for i in m.I) == 10)
 
