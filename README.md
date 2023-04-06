@@ -20,7 +20,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 |:-|:-| :-|
 |**[2023/04/05]**|*Color Transfer*|[color_transfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/color_transfer.py)||:-|:-| :-|
 |**[2023/03/31]**|*RNA folding*|[RNAfolding.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/RNAfolding.py)||:-|:-| :-|
-|**[2023/03/24]**|*Graph Coloring*|[grap_coloring.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/graph_coloring.py)||:-|:-| :-|
+|**[2023/03/24]**|*Graph Coloring*|[graph_coloring.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/graph_coloring.py)||:-|:-| :-|
 |**[2023/03/17]**|*Integer Steel Blending*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
 |**[2023/03/17]**|*Linear Steel Blending*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
 |**[2023/03/15]**|*Magic squares of dimension N*|[magic_square.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/magic_square.py)|
