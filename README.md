@@ -10,6 +10,8 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2023/04/21]**|*6. Semantic Segmentation with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SemanticSegmentation.ipynb)|
+|**[2023/04/14]**|*5. Optimal Color Transfer*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
 |**[2023/03/17]**|*4. Binary Classification with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
 |**[2023/03/08]**|*3. Python and Pyomo*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Pyomo.ipynb)|
 |**[2023/03/08]**|*2. Steel Planning*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
