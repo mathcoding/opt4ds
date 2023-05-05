@@ -20,6 +20,8 @@ This repository is maintained by the [Computational Optimization Research Group]
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
+|**[2023/05/05]**|*Binary Neural Networks: MIP-training of logical functions*|[NN_and.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/NN_and.py)||:-|:-| :-|
+|**[2023/05/05]**|*Semantic Segmentation (for Dummies)*|[segmentation.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/segmentation.py)||:-|:-| :-|
 |**[2023/04/05]**|*Color Transfer*|[color_transfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/color_transfer.py)||:-|:-| :-|
 |**[2023/03/31]**|*RNA folding*|[RNAfolding.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/RNAfolding.py)||:-|:-| :-|
 |**[2023/03/24]**|*Graph Coloring*|[graph_coloring.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/graph_coloring.py)||:-|:-| :-|
