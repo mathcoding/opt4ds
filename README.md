@@ -10,6 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2023/05/12]**|*8. Traveling Student Problem (TSP)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TSP.ipynb)|
 |**[2023/05/12]**|*7. Training Neural Netowrk by Integer Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TrainingBNN.ipynb)|
 |**[2023/04/21]**|*6. Semantic Segmentation with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SemanticSegmentation.ipynb)|
 |**[2023/04/14]**|*5. Optimal Color Transfer*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
