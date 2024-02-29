@@ -13,17 +13,17 @@ from pyomo.environ import ConcreteModel, Var, Objective, Constraint, SolverFacto
 from pyomo.environ import maximize, Binary, RangeSet, PositiveReals, ConstraintList
 
 # Residenza Collegiali a Pavia
-Rs = [(45.1882789,9.1600456, 'Del Maino'),(45.2070857,9.1382623, 'Green Campus'),
-      (45.1961107,9.1395709, 'Golgi'),(45.1851618,9.1506323, 'Senatore'),
-      (45.1806049,9.1691651, 'Don Bosco'),(45.1857651,9.1473637, 'CSA'),
-      (45.1802511,9.1591663, 'Borromeo'),(45.1877192,9.1578934, 'Cairoli'),
-      (45.1870975,9.1588276, 'Castiglioni'),(45.1871301,9.1435067, 'Santa Caterina'),
-      (45.1863927,9.15947, 'Ghislieri'),(45.2007148,9.1325475, 'Nuovo'),
-      (45.1787292,9.1635482, 'Cardano'),(45.1864928,9.1560687, 'Fraccaro'),
-      (45.1989668,9.1775168, 'Griziotti'),(45.1838819,9.161318, 'Spallanzani'),
-      (45.1823523,9.1454315, 'Valla'),(45.2007816,9.1341354, 'Volta'),
-      (45.2070857,9.1382623, 'Residence Campus'),(45.2070857,9.1382623, 'Residenza Biomedica')]
- 
+Rs = [(45.1882789,9.1600456, 'Del Maino', 0),
+      (45.1961107,9.1395709, 'Golgi', 1), (45.1851618,9.1506323, 'Senatore', 2),
+      (45.1806049,9.1691651, 'Don Bosco', 3), (45.1857651,9.1473637, 'CSA', 4),
+      (45.1802511,9.1591663, 'Borromeo', 5), (45.1877192,9.1578934, 'Cairoli', 6),
+      (45.1870975,9.1588276, 'Castiglioni', 7), (45.1871301,9.1435067, 'Santa Caterina', 8),
+      (45.1863927,9.15947, 'Ghislieri', 9), (45.2007148,9.1325475, 'Nuovo', 10),
+      (45.1787292,9.1635482, 'Cardano', 11), (45.1864928,9.1560687, 'Fraccaro', 12),
+      (45.1989668,9.1775168, 'Griziotti', 13), (45.1838819,9.161318, 'Spallanzani', 14),
+      (45.1823523,9.1454315, 'Valla', 15), (45.2007816,9.1341354, 'Volta', 16),
+      (45.2070857,9.1382623, 'Residenza Biomedica', 17)]
+       
 # INSTANCES TAKE FROM THE TSPLIB:
 #   http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/
 
