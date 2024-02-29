@@ -1,4 +1,4 @@
-# Operations Research 2K23
+# Operations Research 2K24
 
 This repository contains the Notebook used during the Operations Research (#orms) course at the [Department of Mathematics](https://matematica.unipv.it/) at the University of Pavia.
 
@@ -10,26 +10,11 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
-|**[2023/05/12]**|*8. Traveling Student Problem (TSP)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TSP.ipynb)|
-|**[2023/05/12]**|*7. Training Neural Networks by Integer Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TrainingBNN.ipynb)|
-|**[2023/04/21]**|*6. Semantic Segmentation with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/SemanticSegmentation.ipynb)|
-|**[2023/04/14]**|*5. Optimal Color Transfer*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
-|**[2023/03/17]**|*4. Binary Classification with Linear Programming*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/LinearClassification.ipynb)|
-|**[2023/03/08]**|*3. Python and Pyomo*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Pyomo.ipynb)|
-|**[2023/03/08]**|*2. Steel Planning*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
 |**[2023/03/03]**|*1. Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
 
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
-|**[2023/05/05]**|*Binary Neural Networks: MIP-training of logical functions*|[NN_and.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/NN_and.py)||:-|:-| :-|
-|**[2023/05/05]**|*Semantic Segmentation (for Dummies)*|[segmentation.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/segmentation.py)||:-|:-| :-|
-|**[2023/04/05]**|*Color Transfer*|[color_transfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/color_transfer.py)||:-|:-| :-|
-|**[2023/03/31]**|*RNA folding*|[RNAfolding.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/RNAfolding.py)||:-|:-| :-|
-|**[2023/03/24]**|*Graph Coloring*|[graph_coloring.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/graph_coloring.py)||:-|:-| :-|
-|**[2023/03/17]**|*Integer Steel Blending*|[blending_IP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_IP.py)|
-|**[2023/03/17]**|*Linear Steel Blending*|[blending_LP.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/blending_LP.py)|
-|**[2023/03/15]**|*Magic squares of dimension N*|[magic_square.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/magic_square.py)|
 
 
 ## Homeworks
@@ -37,7 +22,6 @@ Homework solutions.
 
 | Data | Notebook | Link |
 |:-|:-|:-|
-|**[2023/07/03]**|*Python in a Nutshell: Solutions to exercises*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell_solutions.ipynb)|
 
 
 

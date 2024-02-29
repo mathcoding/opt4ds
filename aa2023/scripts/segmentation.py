@@ -88,9 +88,6 @@ def Segmentation(G):
     if sol_json['Solver'][0]['Termination condition'] != 'optimal':
         return None
 
-    sol = []
-    for i, p in enumerate(G.nodes()):
-        sol.append((p[0], p[1], mod.x[i]))
     return [(p, mod.x[M[p]]()) for p in G.nodes()]
 
 
