@@ -10,7 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
-|**[2023/03/03]**|*1. Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
+|**[2024/03/01]**|*1. Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
 
 ## Python scripts
 | Data | Script | Link |
