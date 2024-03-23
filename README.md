@@ -15,16 +15,18 @@ This repository is maintained by the [Computational Optimization Research Group]
 |**[2024/03/11]**|*Steel Production Planning (intro to Gurobi)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
 |**[2024/03/01]**|*Python in a Nutshell*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell.ipynb)|
 
+## Homeworks solutions
+
+| Data | Solution | Link |
+|:-|:-|:-|
+|**[2023/03/15]**|*Exercise 2.6: Square Magic*|[square_magic.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/square_magic.py)|
+|**[2023/03/15]**|*Exercise 2.5: Steel Recycle Bleending Problem*|[steel.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel.py)|
+|**[2023/03/01]**|*Python in a Nutshell: Solutions to exercises*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell_solutions.ipynb)|
+
 ## Python scripts
 | Data | Script | Link |
 |:-|:-| :-|
 
-
-## Homeworks
-Homework solutions.
-
-| Data | Notebook | Link |
-|:-|:-|:-|
 
 
 
