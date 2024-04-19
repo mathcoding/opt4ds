@@ -10,6 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2024/04/19]**|*Training Binary Neural Networks*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TrainingBNN.ipynb)|
 |**[2024/03/22]**|*Linear Regression with Gurobi*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/linear_regression.ipynb)|
 |**[2024/03/15]**|*Modeling exercises with Gurobi*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Gurobi.ipynb)|
 |**[2024/03/11]**|*Steel Production Planning (intro to Gurobi)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
