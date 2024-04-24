@@ -20,17 +20,13 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2024/04/22]**|*Training a BNN for the AND logical function*|[NN_and.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/NN_and.py)|
 |**[2024/04/15]**|*Optimal Color Transfer*|[colorTransfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/colorTransfer.py)|
 |**[2024/04/12]**|*Linear regression Diabete dataset*|[regression_diabete.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_diabete.py)|
 |**[2024/04/12]**|*Linear regression noisy $sin(x)$*|[regression_sin.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_sin.py)|
 |**[2024/03/15]**|*Exercise 2.6: Square Magic*|[square_magic.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/square_magic.py)|
 |**[2024/03/15]**|*Exercise 2.5: Steel Recycle Bleending Problem*|[steel.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/steel.py)|
 |**[2024/03/01]**|*Python in a Nutshell: Solutions to exercises*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_in_a_Nutshell_solutions.ipynb)|
-
-## Python scripts
-| Data | Script | Link |
-|:-|:-| :-|
-
 
 
 
