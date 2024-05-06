@@ -88,7 +88,7 @@ def MIPxor(Xs, Ys, Phi=lambda x: x, NH=2):
 
     return F
 
-def MIPxor_noncnvex(Xs, Ys, Phi=lambda x: x, NH=2):
+def MIPxor_nonconvex(Xs, Ys, Phi=lambda x: x, NH=2):
     Xs = [Phi(x) for x in Xs]
 
     m = len(Xs[0])
@@ -176,7 +176,7 @@ for _ in range(250):
 
 nh=2
 F1 = MIPxor(Xtrain, Ytrain, Phi=AddBias, NH=nh)
-F2 = MIPxor(Xtrain, Ytrain, Phi=AddBias, NH=nh)
+F2 = MIPxor_nonconvex(Xtrain, Ytrain, Phi=AddBias, NH=nh)
 
 acc1, acc2 = 0, 0
 for x, y in zip(Xtest, Ytest):
@@ -185,7 +185,7 @@ for x, y in zip(Xtest, Ytest):
 #    print(x, F(x), y)
 
 print('Accuracy:', acc1/len(Xtest), len(Xtest), len(Xtrain), 'NH',nh)
-print('Accuracy Non convex:', acc2ù/len(Xtest), len(Xtest), len(Xtrain), 'NH',nh)
+print('Accuracy Non convex:', acc2/len(Xtest), len(Xtest), len(Xtrain), 'NH',nh)
     
 
 
