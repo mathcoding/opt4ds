@@ -20,6 +20,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2024/05/03]**|*Training a BNN for the XOR logical function (non linearly separable*|[NN_and.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/Xor_aula.py)|
 |**[2024/04/22]**|*Training a BNN for the AND logical function*|[NN_and.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/NN_and.py)|
 |**[2024/04/15]**|*Optimal Color Transfer*|[colorTransfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/colorTransfer.py)|
 |**[2024/04/12]**|*Linear regression Diabete dataset*|[regression_diabete.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_diabete.py)|
