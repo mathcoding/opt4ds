@@ -92,14 +92,104 @@ def CheckFeasibility(sol):
     return True
 
 # TODO: complete the following script with your solution
-def SolveTSP_SEC(G, TIME_LIMIT=120):
-    # Return objective value and selected arcs
-    return None
+def SolveTSP_SEC(G, Ps, TIME_LIMIT=120):
+    model = Model()
+    model.setParam('OutputFlag', 1)
+    model.setParam('TimeLimit', TIME_LIMIT)
+
+    # Create variables
+    x = {}
+    for i,j in G.edges():
+        x[i, j] = model.addVar(obj=G[i][j]['weight'], ub=1) #, vtype=GRB.BINARY)
+
+    # Constrains
+    for i in G.nodes():
+        model.addConstr(quicksum(x[h,j] for h,j in G.out_edges(i)) == 1)
+    
+    for j in G.nodes():
+        model.addConstr(quicksum(x[i,h] for i,h in G.in_edges(j)) == 1)
+
+    n = G.number_of_nodes()
+    while True:
+        model.optimize()
+
+        if model.status != GRB.OPTIMAL and model.status != GRB.TIME_LIMIT:
+            print('Error in solution. Status code:', model.status)
+            return -1, [], []
+    
+        #xbar = [x[i,j].x for i,j in x if x[i,j].x > 0.01]
+        #arcs = [(i,j) for i,j in x if x[i,j].x > 0.01]
+        #PlotTour(Ps, arcs, xbar)
+
+        H = nx.Graph()
+        for i,j in x:
+            if x[i,j].x > 0.001:
+                H.add_edge(i, j)
+
+        # Compute subtours: use the connected components
+        Subtours = list(nx.connected_components(H))
+
+        if len(Subtours) == 1:
+            xbar = [x[i,j].x for i,j in x if x[i,j].x > 0.01]
+            arcs = [(i,j) for i,j in x if x[i,j].x > 0.01]
+
+            return model.objVal, arcs, xbar
+
+        # Add subtour elimination constraints
+        for S in Subtours:
+            print(S)
+            model.addConstr(quicksum(x[i,j] for i in S for j in range(n) if j not in S)  >= 1 )
 
 
 # TODO: complete the following script with your solution
 def SolveTSP_MKT(G, TIME_LIMIT=120):
-    return None
+    model = Model()
+    model.setParam('OutputFlag', 1)
+    model.setParam('TimeLimit', TIME_LIMIT)
+
+    # Create variables
+    x = {}
+    for i,j in G.edges():
+        x[i, j] = model.addVar(obj=G[i][j]['weight'], ub=1, name='x[%d,%d]' % (i, j))
+
+    # Variables for position
+    u = {}
+    for i in G.nodes():
+        if i != 0:
+            u[i] = model.addVar(obj=0)
+
+    # Out degree
+    for i in G.nodes():
+        model.addConstr(quicksum(x[h,j] for h,j in G.out_edges(i)) == 1)
+
+    for j in G.nodes():
+        model.addConstr(quicksum(x[i,h] for i,h in G.in_edges(j)) == 1)
+
+    # tour di 2
+    #for i, j in G.edges():
+    #    if i < j:
+    #        model.addConstr(x[i,j] + x[j,i] <= 1)
+
+    #model.addConstr(x[2, 24] + x[24, 27] + x[2, 27] + x[24, 2] + x[27, 24] + x[27, 2] <= 2)
+
+    # Subtour constraints
+    n = G.number_of_nodes()
+    for i, j in G.edges():
+        if i != 0 and j!=0:
+            model.addConstr( u[i] - u[j] + 1 <= (n-1)*(1-x[i,j]) )
+
+
+    # Solve model
+    model.optimize()
+
+    if model.status != GRB.OPTIMAL and model.status != GRB.TIME_LIMIT:
+        print('Error in solution. Status code:', model.status)
+        return -1, [], []
+
+    xbar = [x[i,j].x for i,j in x if x[i,j].x > 0.01]
+    arcs = [(i,j) for i,j in x if x[i,j].x > 0.01]
+
+    return model.objVal, arcs, xbar
 
 
 if __name__ == "__main__":
@@ -122,9 +212,9 @@ if __name__ == "__main__":
     # Solve problem
     G = BuildDiGraph(C)
 
-    z_lp, tour, values = SolveTSP_SEC(G) # 9.074148047873e+03
+    Ps = [(p[0],p[1]) for p in Ls]
+    z_lp, tour, values = SolveTSP_SEC(G, Ps) # 9.074148047873e+03
     #z_lp, tour, values = SolveTSP_MKT(G) # 9.074148047873e+03
 
-    Ps = [(p[0],p[1]) for p in Ls]
     PlotTour(Ps, tour, values)
     

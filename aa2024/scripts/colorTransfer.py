@@ -38,12 +38,12 @@ def ColorMap(H1, H2):
     # Create empty model
     model = Model()
     # Set a time limit to 60 seconds
-    model.setParam('TimeLimit', 600)
+    model.setParam('TimeLimit', 10)
 
     # Select the LP algorithm
     # 0: primal simplex, 1: dual simplex, 2: barrier, 
     # 3: concurrent, 4: deterministic concurrent
-    model.setParam('Method', 1) 
+    model.setParam('Method', 2) 
 
     # For using the barrier, UNCOMMENT the following:
     # model.setParam('Method', 2) 
@@ -105,8 +105,8 @@ def Wheel(Ps):
 B = LoadImage('../data/notte.jpg')
 A = LoadImage('../data/borgo.jpg')
 
-H1 = PointSamples(A, 500)
-H2 = PointSamples(B, 500)
+H1 = PointSamples(A, 1000)
+H2 = PointSamples(B, 1000)
 
 CMAP = ColorMap(H1, H2)
 
