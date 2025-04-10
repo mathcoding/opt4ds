@@ -10,6 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2025/04/10]**|*Optimal Color Transfer between two images*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
 |**[2025/03/20]**|*Optimal Linear Regression (updated on 03/04/2025)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Linear_Regression.ipynb)|
 |**[2025/03/13]**|*Python and Gurobi*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Gurobi.ipynb)|
 |**[2025/03/13]**|*Steel Production Planning (intro to Gurobi)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Steel_Planning.ipynb)|
