@@ -21,6 +21,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2025/04/30]**|*Linear regression: solution proposed by a student*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Student_Challenge_1.ipynb)|
 |**[2025/04/30]**|*Linear regression Diabete dataset*|[regression_diabete.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_diabete.py)|
 |**[2025/04/40]**|*Linear regression noisy $sin(x)$*|[regression_sin.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_sin.py)|
 |**[2025/04/17]**|*Optimal Color Transfer*|[colorTransfer.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/colorTransfer.py)|
