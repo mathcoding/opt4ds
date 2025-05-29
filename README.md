@@ -10,6 +10,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Notebook | Link |
 |:-|:-|:-|
+|**[2025/05/29]**|*Training Binary Neural Networks*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TrainingBNN.ipynb)|
 |**[2024/05/08]**|*Traveling Student Problem (TSP)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/TSP.ipynb)|
 |**[2025/04/10]**|*Optimal Color Transfer between two images*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
 |**[2025/03/20]**|*Optimal Linear Regression (updated on 03/04/2025)*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Linear_Regression.ipynb)|
@@ -21,6 +22,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2025/05/22]**|*Traveling Salesman Problem*|[atsp.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/atsp.py)
 |**[2025/04/30]**|*Linear regression: solution proposed by a student*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Student_Challenge_1.ipynb)|
 |**[2025/04/30]**|*Linear regression Diabete dataset*|[regression_diabete.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_diabete.py)|
 |**[2025/04/40]**|*Linear regression noisy sin(x)*|[regression_sin.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_sin.py)|
