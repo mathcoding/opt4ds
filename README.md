@@ -19,6 +19,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2026/03/23]**|*Solution for Sudoku*|[sudoku.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/sudoku.py)|
 
 
 
