@@ -20,6 +20,8 @@ This repository is maintained by the [Computational Optimization Research Group]
 
 | Data | Solution | Link |
 |:-|:-|:-|
+|**[2026/03/30]**|*Linear regression Diabete dataset*|[regression_diabete.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_diabete.py)|
+|**[2026/03/30]**|*Linear regression noisy sin(x)*|[regression_sin.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/regression_sin.py)|
 |**[2026/03/23]**|*Solution for Sudoku*|[sudoku.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/sudoku.py)|
 
 
