@@ -11,7 +11,7 @@ This repository is maintained by the [Computational Optimization Research Group]
 | Data | Notebook | Link |
 |:-|:-|:-|
 ColorTransfer
-|**[2026/04/20]**|*Color Transfer*|[lab_scaffold.py](https://github.com/mathcoding/opt4ds/blob/master/notebooks/ColoTransfer.py)|
+|**[2026/04/20]**|*Color Transfer*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/ColorTransfer.ipynb)|
 |**[2026/03/30]**|*Modeling and Forecast Italian Electricity Market*|[lab_scaffold.py](https://github.com/mathcoding/opt4ds/blob/master/scripts/lab_scaffold.py)|
 |**[2026/03/23]**|*Linear Regression*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Linear_Regression.ipynb)|
 |**[2026/03/09]**|*Python and Gurobi*|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathcoding/opt4ds/blob/master/notebooks/Python_and_Gurobi.ipynb)|
